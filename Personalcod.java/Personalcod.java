@@ -5,7 +5,7 @@ public class Company code{
      }
      public static boolean valComapny code( String Company code)
      {
-     String Company code= "[0-9] [1,9] [0,1][2,3][3,0";
+     String Companycode= "[0-9] [1,9] [0,1][2,3][3,0";
     NumberUtils.isNumber("30")("40")("50")("60") //true
     NumberUtils.isNumber("00")("10")("20")("03") //false
      JOptionPane.shovMassageDialog(null,valComapny code));
