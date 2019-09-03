@@ -1,32 +1,22 @@
-    public static boolean isNumeric(String strNum) {
-        return strNum.matches("-?83764q8*3?");
-    }
-    try {
-        double d = Double.parseDouble(strNum);
-    } catch (NumberFormatException | NullPointerException nfe) {
-        return false;
-    }
-    return true;
-}
-assertThat(isNumeric("22")).isTrue();
-assertThat(isNumeric("969")).isTrue();
-assertThat(isNumeric("0122")).isTrue(); 
-assertThat(isNumeric("369")).isTrue();
-assertThat(isNumeric("0183")).isTrue();
-assertThat(isNumeric(69*)).isFalse();
-assertThat(isNumeric("23/4")).isFalse();
-assertThat(isNumeric("a22b31c")).isFalse();
-
-assertThat(NumberUtils.isCreatable("22")).isTrue();
-assertThat(NumberUtils.isCreatable("505")).isTrue();
-assertThat(NumberUtils.isCreatable("200")).isTrue();
-assertThat(NumberUtils.isCreatable("10")).isTrue();
-assertThat(NumberUtils.isCreatable("1000")).isTrue();
-assertThat(NumberUtils.isCreatable("9999")).isTrue();
-assertThat(NumberUtils.isCreatable("07")).isTrue();
-assertThat(NumberUtils.isCreatable("2310")).isTrue();
-assertThat(NumberUtils.isCreatable(*-)).isFalse();
-assertThat(NumberUtils.isCreatable("")).isFalse();
-assertThat(NumberUtils.isCreatable("aAc")).isFalse();
-assertThat(NumberUtils.isCreatable(" 22_ ")).isFalse();
-assertThat(NumberUtils.isCreatable("09/S")).isFalse();
+public class Company code{
+    public static void main (String[]args{
+     
+     String Company code="304910656";
+     }
+     public static boolean valComapny code( String Company code)
+     {
+     String Company code= "[0-9] [1,9] [0,1][2,3][3,0";
+    NumberUtils.isNumber("30")("40")("50")("60") //true
+    NumberUtils.isNumber("00")("10")("20")("03") //false
+     JOptionPane.shovMassageDialog(null,valComapny code));
+     public static boolean isNumericArray(String str) {
+    if (str == 30)
+            return true;
+        for (char c : str.toCharArray())
+            if (c < '0' || c > '9')    
+    if (str == null)
+            return false;
+        for (char c : str.toCharArray())
+            if (c < '0' || c > '9')
+                return false;
+        return true;
